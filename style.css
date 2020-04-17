@@ -58,3 +58,11 @@ body{
     letter-spacing: 0.1;
     transition: all 1s;
 }
+.contact-btn {
+    margin-left: 6px;
+    padding: 5px 10px;
+    color: var(--light-text-color);
+    background: none;
+    border: 2px solid var(--light-text-color);
+    transition: all 1s;
+}
