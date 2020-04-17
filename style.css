@@ -208,3 +208,7 @@ li span:before, li span:after {
     text-align: left;
     font-size: 0.8em;
 }
+
+.stats{
+    display: flex;
+}
