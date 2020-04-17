@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@font-face {
+    font-family: CircularStd;
+    src: url(assets/fonts/CircularStd-Bold.eot);
+    src: url("assets/fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/CircularStd-Bold.woff") format("woff"), url("assets/fonts/CircularStd-Bold.ttf") format("truetype"), url("assets/fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+}
+:root {
+    --primary-color: none;
+    --overlay-color: rgba(255, 255, 255, 0.9);
+    --menu-speed: 0.75s;
+    --light-text-color: #444;
+    --black-color: #000;
+    --white-color: #fff;
+    --hero-color: black;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-container{
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.hero{
+    font-family: 'Poppins';
+    position: relative;
+    
+    text-align: center;
+}
+
+#left-hero {
+    padding-left: 150px;
+}
+.hero-tag {
+    margin-top: 20vh;
+    text-align: left;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: var(--hero-color);
+    font-family: 'CircularStd', sans-serif;
+}
+
+.hero-des {
+    padding-right: 60px;
+    text-align: justify;
+    /* font-weight: 800; */
+    letter-spacing: 1.2;
+}
+.learn-btn {
+    padding: 5px 10px;
+    background: var(--light-text-color);
+    color: white;
+    border: 2px solid var(--light-text-color);
+    letter-spacing: 0.1;
+    transition: all 1s;
+}
