@@ -31,12 +31,14 @@ body{
     
     text-align: center;
 }
-
-#left-hero {
-    padding-left: 150px;
+#left-hero{
+    padding-left: 100px;
+}
+#hero-right {
+    padding-left: 10px;
 }
 .hero-tag {
-    margin-top: 20vh;
+    margin-top: 16vh;
     text-align: left;
     font-size: 4.5em;
     font-weight: bold;
@@ -46,23 +48,39 @@ body{
 
 .hero-des {
     padding-right: 60px;
+    text-transform: uppercase;
     text-align: justify;
     /* font-weight: 800; */
     letter-spacing: 1.2;
 }
 .learn-btn {
-    padding: 5px 10px;
+    margin-top: 10px;
+    padding: 5px 20px;
     background: var(--light-text-color);
     color: white;
     border: 2px solid var(--light-text-color);
     letter-spacing: 0.1;
     transition: all 1s;
+    border-radius: 50px;
 }
-.contact-btn {
-    margin-left: 6px;
-    padding: 5px 10px;
-    color: var(--light-text-color);
-    background: none;
-    border: 2px solid var(--light-text-color);
-    transition: all 1s;
+
+#hero-img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.input-search {
+    background: #f0f0f0;
+    /* border: 1px solid #4e73df; */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    outline: none;
+    width: 400px;
+    margin-bottom: 10px;
+    transition: width 0.5s;
+}
+.hero-main{
+    width:100vw;
+    margin-top: 5%;
 }
