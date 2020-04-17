@@ -38,7 +38,7 @@ body{
     padding-left: 10px;
 }
 .hero-tag {
-    margin-top: 16vh;
+    margin-top: 25vh;
     text-align: left;
     font-size: 4.5em;
     font-weight: bold;
@@ -65,7 +65,7 @@ body{
 }
 
 #hero-img {
-    margin-top: 50px;
+    margin-top: 18vh;
     width: 100%;
 }
 
@@ -153,7 +153,7 @@ li span:before, li span:after {
 .user-profile{
     width: 80vw;
     
-    height: 60vh;
+    height: auto;
     /* background: #444; */
     /* justify-content: center; */
     align-items: center;
@@ -168,20 +168,22 @@ li span:before, li span:after {
 }
 .user-profile-picture{
  height: 350px;
- border-radius: 50%;
+ border:5px solid #444;
+ border-radius: 5%;
  
 }
 
 .profile-btn {
     margin-top: 10px;
     /* padding: 5px 20px; */
-    width: 50%;
+    width: 40%;
     background: white;
     color: var(--light-text-color);
     border: 2px solid var(--light-text-color);
     letter-spacing: 0.1;
+    margin:0px 2%;
     transition: all 1s;
-    border-radius: 50px;
+    /* border-radius: 50px; */
 }
 
 .profile-btn:hover{
@@ -209,6 +211,67 @@ li span:before, li span:after {
     font-size: 0.8em;
 }
 
+.repo-stats{
+    display: grid;
+    padding-bottom: 10px;
+}
 .stats{
     display: flex;
+}
+.repo{
+    align-content: flex-start;
+    background: #444;
+    color: white;
+    width: 50%;
+    margin:5px 0px;
+}
+.membership{
+    display: flex;
+    margin: 10px;
+}
+.title{
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.repo-container{
+    padding-top: 50px;
+    width: 80vw;
+}
+.repo-card{
+    margin:10px 35px;
+    padding:10px 20px;
+    width:100%;
+    text-align: left;
+    background: white;
+    box-shadow: 2px 2px 8px grey;
+    transition: all 1s;
+}
+.repo-name{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.repo-des{
+    text-align: justify;
+}
+.repo-info{
+    margin:10px 0px;
+    display: flex;
+}
+.lang{
+    background: #444;
+    color: white;
+}
+.repo-info .highlight{
+    padding:5px 10px;
+}
+#repo-link{
+    color:#444;
+    text-decoration:none;
+}
+.repo-card:hover{
+    box-shadow:5px 5px 20px #444;
 }
