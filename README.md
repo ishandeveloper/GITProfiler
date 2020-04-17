@@ -1,3 +1,4 @@
+[![HitCount](http://hits.dwyl.com/ishandeveloper/GITProfiler.svg)](http://hits.dwyl.com/ishandeveloper/GITProfiler)
 <img src="https://github.com/ishandeveloper/GITProfiler/blob/master/screenshots/2.png?raw=false" width="100%">
 
 # GIT-Profiler
