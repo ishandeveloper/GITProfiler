@@ -150,3 +150,61 @@ li span:before, li span:after {
     font-size: 2em;
     font-weight: bold;
 }
+.user-profile{
+    width: 80vw;
+    
+    height: 60vh;
+    /* background: #444; */
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.profile-picture{
+    display: grid;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.user-profile-picture{
+ height: 350px;
+ border-radius: 50%;
+ 
+}
+
+.profile-btn {
+    margin-top: 10px;
+    /* padding: 5px 20px; */
+    width: 50%;
+    background: white;
+    color: var(--light-text-color);
+    border: 2px solid var(--light-text-color);
+    letter-spacing: 0.1;
+    transition: all 1s;
+    border-radius: 50px;
+}
+
+.profile-btn:hover{
+    background: var(--light-text-color);
+    color: white;
+}
+.username{
+    text-align: left;
+}
+.username .main{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.highlight{
+    cursor: pointer;
+    margin-right: 10px;
+    background: #f2f2f2;
+    padding: 2px 4px;
+    /* font-size: 0.4em; */
+    transition: background 1s;
+}
+.user-bio{
+    text-align: left;
+    font-size: 0.8em;
+}
